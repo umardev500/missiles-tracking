@@ -57,7 +57,7 @@ const map = new mapboxgl.Map({
 let animationFrameId;
 let startTime = null;
 let marker;
-let speedKmh = 142080; // Set the speed (in km/h)
+let speedKmh = 12080; // Set the speed (in km/h)
 
 // Function to animate the marker with speed control in km/h
 function animateMarker(marker, lineCoordinates, speedKmh) {
